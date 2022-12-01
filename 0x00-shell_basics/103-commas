@@ -1,2 +1,2 @@
 #!/bin/bash/
-ls -vxapF --file-type
+ls -m -a -p

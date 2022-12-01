@@ -1,2 +1,2 @@
 #!/bin/bash
-su chown 'me' 'betty'
+su 'me' 'betty'

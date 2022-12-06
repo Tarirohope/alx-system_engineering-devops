@@ -1,7 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-echo "$((2#BINARY))"
-
-=======
-echo $((2#BINARY)o)
->>>>>>> b0bdbc3206263c95fbc44954e5d47a51d085807e
+echo $((2#BINARY))

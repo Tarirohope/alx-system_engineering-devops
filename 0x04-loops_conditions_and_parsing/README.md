@@ -1,38 +1,27 @@
-# Project Name.
-**0x04. Loops, conditions and parsing**
+# Loops, conditions and parsing
 
+Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about loops (`while`, `until` and `for`), condition statements (`if`, `else`, `elif` and `case`), shebangs and how to create SSH keys with **Bash**.
 
-##  Requirements
+## Technologies
+* Scripts written in Bash 4.3.11(1)
+* Tested on Ubuntu 14.04 LTS
 
-### Bash Scripts
-*   Allowed editors: `vi`, `vim`, `emacs`.
-*   All your files will be tested on Ubuntu 20.04 LTS.
-*   All your files should end with a new line.
-*   The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`.
-*   All your bash scripts must be executable.
-*   You are not allowed to use `awk`.
-*   Your Bash script must pass `shellcheck` without any error.
-*   The second line of all your Bash scripts should be a comment explaining what is the script doing.
+## Files
 
-## Project Description.
-Learn how to create SSH keys.
-What is the advantage of using `#!/usr/bin/env bash` over `#!/bin/bash`.
-How to use `while`, `until` and `for` loops.
-How to use `if`, `else`, `elif` and `case` condition statements.
-How to use the `cut` command.
-What are files and other comparison operators, and how to use them.
-
-
-* **0. Create a SSH RSA key pair** - Create a RSA key pair. - `0-RSA_public_key.pub`.
-* **1. For Best School loops** - Write a Bash script that displays `Best School` 10 times. - `1-for_best_school`.
-* **2. While Best School loop** - Write a Bash script that displays `Best School` 10 times. - `2-while_best_school`.
-* **3. Until Best School loop** - Write a Bash script that displays `Best School` 10 times. - `3-until_best_school`.
-* **4. If 9, say Hi!** - Write a Bash script that displays `Best School` 10 times, but for the 9th iteration, displays `Best School` and then `Hi` on a new line. - `4-if_9_say_hi`.
-* **5. 4 bad luck, 8 is your chance** - Write a Bash script that loops from 1 to 10 with the given requirements. - `5-4_bad_luck_8_is_your_chance`.
-* **6. Superstitious numbers** - Write a Bash script that loops from 1 to 20 with the given requirements. - `6-superstitious_numbers`.
-* **7. Clock** - Write a Bash script that displays the time for 12 hours and 59 minutes with the given requirements. - `7-clock`.
-* **8. For ls** - Write a Bash script that displays The content of the current directory in a list format where only the part of the name after the first dash is displayed with the given requirements. - `8-for_ls`.
-* **9. To file, or not to file** - Write a Bash script that gives you information about the `school` file with the given requirements. - `9-to_file_or_not_to_file`.
-* **10. FizzBuzz** - Write a Bash script that displays numbers from 1 to 100 with the given requirements. - `10-fizzbuzz`.
----
-
+| Filename | Description |
+| -------- | ----------- |
+| `0-RSA_public_key.pub` | File that stores a RSA public key to access servers via SSH |
+| `1-for_holberton_school` | Displays `Holberton School` 10 times with a `for` loop |
+| `2-while_holberton_school` | Displays `Holberton School` 10 times with a `while` loop |
+| `3-until_holberton_school` | Displays `Holberton School` 10 times with an `until` loop |
+| `4-if_9_say_hi` | Displays `Holberton School` 10 times and displays `Hi` for the 9th iteration |
+| `5-4_bad_luck_8_is_your_chance` | Loops from 1 to 10 and displays `Holberton School`, except for 4th and 8th iteration which displays `bad luck` and `good luck`, respectively  |
+| `6-superstitious_numbers` | Displays numbers from 1 to 20 and displays `bad luck from China`, `bad luck from Japan` and `bad luck from Italy` for the 4th, 9th and 17th iteration, respectively |
+| `7-clock` | Displays the time for 12 hours and 59 minutes |
+| `8-for_ls` | Displays the content of the current directory in a list format |
+| `9-to_file_or_not_to_file` | Gives information about the `holbertonschool` file |
+| `10-fizzbuzz` | Displays the `fizzbuzz` sequence |
+| `100-read_and_cut` | Displays the content of the file `/etc/passwd` |
+| `101-tell_the_story_of_passwd` | Displays the content of the file `/etc/passwd` with an specific message |
+| `102-lets_parse_apache_logs` | Displays the visitor IP along with the HTTP status code from an Apache log file |
+| `103-dig_the-data` | Groups visitors by IP and HTTP status code and displays the occurrences, from the greatest to the lowest number |
